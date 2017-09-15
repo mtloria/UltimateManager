@@ -1,0 +1,6 @@
+en:
+  devise:
+    mailer:
+      confirmation_instructions:
+        subject: "Please confirm your e-mail address, please. Please do it. Do it now."
+        confirm_link_msg: "testing that confirm link message, yo."
