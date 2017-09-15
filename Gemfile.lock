@@ -106,6 +106,7 @@ GEM
       pry (>= 0.9.11)
     puma (3.10.0)
     rack (2.0.3)
+    rack-cors (1.0.1)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (5.0.6)
@@ -186,6 +187,7 @@ DEPENDENCIES
   pry-rails
   pry-stack_explorer
   puma (~> 3.0)
+  rack-cors
   rails (~> 5.0.5)
   rspec-rails (= 3.6.1)
   sqlite3
