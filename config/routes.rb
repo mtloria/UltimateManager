@@ -2,7 +2,9 @@ Rails.application.routes.draw do
 
 	root to: 'home#show'
 
-  mount_devise_token_auth_for 'User', at: 'auth'
+	mount_devise_token_auth_for 'User', at: 'auth', controllers: {
+		registrations: 'registrations'
+	}
 
   scope module: 'api' do
 	  namespace :v1 do
