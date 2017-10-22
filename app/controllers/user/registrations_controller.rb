@@ -1,4 +1,4 @@
-class RegistrationsController < DeviseTokenAuth::RegistrationsController
+class User::RegistrationsController < DeviseTokenAuth::RegistrationsController
     
     def create
         super do |resource|
